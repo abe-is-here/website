@@ -1,6 +1,0 @@
-where i started: https://tinyprojects.dev/guides/tiny_website 
-cat spinning: https://tenor.com/view/cat-spinning-low-poly-meme-gif-27164337
-used Formspree for contact name: https://formspree.io
-
-
-CTRL + SHIFT + R -      Hard refresh

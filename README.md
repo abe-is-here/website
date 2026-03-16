@@ -1,13 +1,13 @@
-# website
+# Website
 Current Version: 2.0
 
 Version 2.0:
 - added new home page
     - added nav bar at the top
-    - created contact.html
-        - made with Formspree
-        - added unused thanks.html [might delete later]
-    - added resume.html
+- created contact.html
+    - made with Formspree
+    - added unused thanks.html [might delete later]
+- added resume.html
 
 Version 1.1:
 - added temp.html
