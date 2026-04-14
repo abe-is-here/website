@@ -22,7 +22,6 @@
             <ul class="dropdown-menu">
                 <li><a href="temp.html">Programming</a></li>
                 <li><a href="temp.html">Art</a></li>
-                <li><a href="temp.html">Research</a></li>
             </ul>
             </li>
 
@@ -36,45 +35,56 @@
         </ul>
     </nav>
 
-    <form
-    action="https://formspree.io/f/xkoqjaoz"
-    method="POST"
->
+    <main class="contact-page">
+        <section class="contact-hero contact-card">
+            <h2>Get in Touch</h2>
+            <p>
+                I'm always open to connecting with fellow creatives, tech enthusiasts, and anyone interested in healthcare data. 
+                Whether you have a project idea, want to collaborate, or just want to say hi, feel free to reach out!
+            </p>
+        </section>
 
-    <div class="form-group">
-        <input
-        type="text"
-        class="form-control"
-        name="name"
-        placeholder="Your Name"
-        required
-        >
-    </div>
+        <form
+        class="contact-form contact-card"
+        action="https://formspree.io/f/xkoqjaoz"
+        method="POST"
+    >
 
-    <div class="form-group">
-        <input
-        type="email"
-        class="form-control"
-        name="email"
-        placeholder="Your Email"
-        required
-        >
-    </div>
+        <div class="form-group">
+            <input
+            type="text"
+            class="form-control"
+            name="name"
+            placeholder="Your Name"
+            required
+            >
+        </div>
 
-    <div class="form-group">
-        <textarea
-        class="form-control"
-        name="message"
-        rows="6"
-        placeholder="Your Message"
-        required
-        ></textarea>
-    </div>
+        <div class="form-group">
+            <input
+            type="email"
+            class="form-control"
+            name="email"
+            placeholder="Your Email"
+            required
+            >
+        </div>
 
-    <button class="btn btn-primary send-button" type="submit">
-        Send Message
-    </button>
-</form>
+        <div class="form-group">
+            <textarea
+            class="form-control"
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+            ></textarea>
+        </div>
+
+        <button class="btn btn-primary send-button" type="submit">
+            Send Message
+        </button>
+    </form>
+    </main>
 
     <img src="/images/cat-spinning.gif" class="cat-corner" alt="spinning cat">
 
