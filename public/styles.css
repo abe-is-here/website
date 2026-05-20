@@ -565,3 +565,52 @@ textarea.form-control {
   }
 }
 
+/* PROGRAMS PAGE */
+.programs-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 120px 20px 60px;
+}
+.programs-page h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.programs-page p {
+  color: #555;
+  line-height: 1.6;
+}
+.programs-list {
+  list-style: none;
+  padding: 0;
+}
+.programs-list li {
+  margin-bottom: 18px;
+}
+.programs-list li a {
+  color: #2d3366;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.programs-list li a:hover {
+  color: #111;
+}
+
+
+.programs-card {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 14px 35px rgba(67, 78, 145, 0.1);
+}
+.programs-card h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #25306c;
+}
+.programs-card p {
+  line-height: 1.7;
+  color: #42486f;
+}
