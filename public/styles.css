@@ -577,7 +577,10 @@ textarea.form-control {
 }
 
 .programs-page h1 {
+  font-family: "Space Grotesk", sans-serif;
   font-size: 40px;
+  margin-bottom: 12px;
+  color: #25306c;
   margin-bottom: 10px;
 }
 
